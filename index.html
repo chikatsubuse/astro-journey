@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>アストロ・ジャーニー プロトタイプ V2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="game-body">
+    <div id="game-container">
+        <header id="game-header">
+            <!-- ★追加: タイムライン用のコンテナ -->
+            <div id="timeline-container"></div>
+            <h1>アストロ・ジャーニー：星の記録を未来へつなぐクエスト</h1>
+        </header>
+
+        <main id="main-content">
+            <!-- 各ステージのコンテナ。JavaScriptで表示を切り替える -->
+        </main>
+        
+        <footer id="navigation">
+            <button id="prev-btn" class="nav-btn">前の時代へ</button>
+            <span id="stage-indicator"></span>
+            <button id="next-btn" class="nav-btn">次の時代へ</button>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
