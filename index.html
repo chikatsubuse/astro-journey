@@ -7,6 +7,17 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body id="game-body">
+        <!-- index.html の <body> タグ直下などに追加 -->
+    <div id="figure-modal" style="display: none;">
+        <div id="figure-modal-backdrop"></div>
+        <div id="figure-modal-content">
+            <h2>その時代を築いた人々</h2>
+            <div id="figure-details">
+                <!-- ここにJSで人物情報が挿入される -->
+            </div>
+            <button id="figure-modal-close" class="action-btn">旅を続ける</button>
+        </div>
+    </div>
     <div id="game-container">
         <header id="game-header">
             <!-- ★追加: タイムライン用のコンテナ -->
